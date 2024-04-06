@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Metropolis', sans-serif;
+    font-size: 16px;
+    color: rgba(43, 43, 43, 1);
+    background: #e3e3e3;
+}
+#area-cabecalho {
+    background: white;
+}
+#area-logo{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+#area-logo #logo{
+    margin: 10px 10px 10px 10px;
+}
+#area-logo #logo h3{
+    padding: 10px;
+}
+#area-logo #btn-entrar{
+    margin: 10px 10px 10px 10px;
+}
+#area-logo #btn-entrar button{
+    padding: 10px;
+}
+#area-menu{
+    text-align: center;
+    background: rgba(250, 250, 250, 1);
+    padding: 10px;
+    margin:15px 0px;
+}
+#area-menu a{
+    margin: 30px;
+    text-decoration: none;
+    color: rgba(43, 43, 43, 1);
+}
